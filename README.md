@@ -23,7 +23,10 @@ Pada github kali ini terdiri dari 2 class di python
 5. git commit: Menggunakan git commit -m "membangun kelas Marketing Data ETL" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
 6. git status: Ternyata sudah tidak ada lagi yang perlu dicommit (nothing to commit, working tree clean)
 7. git push: saya melakukan ini untuk push file saya ke cloud agar dapat menyimpan kode di github
-8. 
+8. git checkout: Menggunakan git checkout -b add_targetmarketing untuk menambah kelas baru, supaya langsung pindah ke branch baru bernama add_targetmarketing (Switched to a new branch 'add_targetmarketing')
+9. git status: untuk memeriksa kembali apa saja yang sudah dilakukan
+10. git log: untuk melihat perubahan dari file saya
+11. 
 
 git status 
 Untuk melihat status atau apa saja yang telah dilakukan
@@ -40,8 +43,15 @@ push ke cloud untuk menyimpan kode kita di github
 Pull request
 Memberi tahu orang lain bahwa kita sudah selesai coding, sudah dipush dan siap di merge pull
 
+git branch
+membuat branch baru
 
+git checkout <branch_name>
 
+git revert <commits> untuk mengundo, membuat commit baru dimana commit baru itu menjelaskan bahwa kita akan kembali ke commit sebelumnya. Tidak akan menghapus history commit sebelumnya tetapi dia akan melakukan state bahwa commit sekarang adalah versi yang lama.
+
+git reset
+akan menghapus segala perubahan yang ada di commit tersebut
 
 
 
