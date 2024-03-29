@@ -8,12 +8,15 @@ Data yang digunakan adalah data marketing di suatu toko yang terdiri dari 8 bari
 3. product_category: jenis produk yang dibeli oleh costumer
 4. amount_spent: jumlah produk yang dibeli costumer
 
-Setelah diperiksa, ternyata data tidak lengkap, terdapat data kosong pada kolom purchase_date.
+Setelah diperiksa, ternyata data tidak lengkap, terdapat data kosong pada kolom purchase_date, sehingga perlu dilakukan penanganan berupa transformasi data.
 
 ## Class
 Pada github kali ini terdiri dari 2 class di python
 1. class MarketingDataETL
 2. class TargetedMarketingETL
+
+## Class MarketingDataETL
+
 
 ## Langkah-Langkah Git yang saya lakukan
 1. git clone: saya melakukan git clone untuk menghubungkan repository dengan local (folder laptop pribadi)
@@ -36,7 +39,8 @@ Pada github kali ini terdiri dari 2 class di python
 18. git status: untuk melihat kembali saya berada di brach mana
 19. git add:  Karena saya membuat class TargetedMarketingETL yang berisi mentransformasi, segmentasi pelanggan, dan menyimpan data segmentasi pelanggan dengan nama file "segmented_marketing_data.csv" sehingga saya menambahkan file tersebut dengan git add ke dalam rangkaian git
 20. git commit: Menggunakan git commit -m "menyimpan data segmentasi pelanggan" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
-21. git push: menggunakan git push origin add_targetmarketing sehingga di github ada brach baru bernama add_target marketing.
+21. git pull: karena sebelumnya ada perubahan, maka gunakan git pull dahulu sebelum push ke repository
+22. git push: menggunakan git push origin add_targetmarketing sehingga di github ada brach baru bernama add_target marketing.
 
 
 git status 
