@@ -26,7 +26,6 @@ Kelas ini berada pada file Inheritance_Polymorphism.py. Disini digunakan inherit
 1. Fitur transform, fitur ini bekerja dengan demonstrasi polymorphism dengan meng-override metode transform() dalam TargetedMarketingETL untuk menambahkan logika segmentasi pelanggan ke dalam proses transformasi. Memanggil metode transform() dari kelas induk.
 2. Fitur segment_customers, fitur ini mengelompokkan pelanggan berdasarkan total pengeluaran dalam kategori produk tertentu
 
-
 ## Langkah-Langkah Git yang saya lakukan
 1. git clone: saya melakukan git clone untuk menghubungkan repository dengan local (folder laptop pribadi)
 2. git add: Menambah file baru bernama "Basic_OOP.py" ke dalam rangkaian git
