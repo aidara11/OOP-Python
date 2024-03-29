@@ -15,9 +15,9 @@ Pada github kali ini terdiri dari 2 class di python
 1. class MarketingDataETL
 2. class TargetedMarketingETL
 
-## Langkah-Langkah Git yang dilakukan
+## Langkah-Langkah Git yang saya lakukan
 1. git clone: saya melakukan git clone untuk menghubungkan repository dengan local (folder laptop pribadi)
-2. git add: Menambah file baru bernama "Basic_OOP_dan_Inheritance_Polymorphism.py" ke dalam rangkaian git
+2. git add: Menambah file baru bernama "Basic_OOP.py" ke dalam rangkaian git
 3. git status: Melihat apakah file yang saya tambahkan sudah masuk ke rangkaian git
 4. git add: Karena saya membuat class yang berisi mengekstrak, mentransformasi, dan menyimpan data yang telah ditransformasi dengan nama file "transformed_marketing_data.csv" sehingga saya menambahkan file tersebut dengan git add ke dalam rangkaian git
 5. git commit: Menggunakan git commit -m "membangun kelas Marketing Data ETL" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
@@ -26,7 +26,18 @@ Pada github kali ini terdiri dari 2 class di python
 8. git checkout: Menggunakan git checkout -b add_targetmarketing untuk menambah kelas baru, supaya langsung pindah ke branch baru bernama add_targetmarketing (Switched to a new branch 'add_targetmarketing')
 9. git status: untuk memeriksa kembali apa saja yang sudah dilakukan
 10. git log: untuk melihat perubahan dari file saya
-11. 
+11. git status: sebelum commit code yang sudah ditambahkan, bisa lihat dulu sudah berada dalam brach mana (On branch add_targetmarketing)
+12. git add . : untuk menambahkan class TargetedMarketingETL yang sudah dibuat
+13. git commit: Menggunakan git commit -m "menambah kelas Targeted Marketing ETL" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
+14. git checkout main: pindah branch ke main lagi untuk menyelesaikan code
+15. git checkout add_targetmarketing: untuk kembali lagi ke branch add_targetmarketing
+16. git add: Menambahkan file baru bernama "Inheritance_Polymorphism.py" ke dalam rangkaian git
+17. git log: untuk melihat histori commit saya
+18. git status: untuk melihat kembali saya berada di brach mana
+19. git add:  Karena saya membuat class TargetedMarketingETL yang berisi mentransformasi, segmentasi pelanggan, dan menyimpan data segmentasi pelanggan dengan nama file "segmented_marketing_data.csv" sehingga saya menambahkan file tersebut dengan git add ke dalam rangkaian git
+20. git commit: Menggunakan git commit -m "menyimpan data segmentasi pelanggan" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
+21. git push: menggunakan git push origin add_targetmarketing sehingga di github ada brach baru bernama add_target marketing.
+
 
 git status 
 Untuk melihat status atau apa saja yang telah dilakukan
