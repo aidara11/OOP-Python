@@ -45,7 +45,7 @@ class MarketingDataETL:
 
 # Contoh penggunaan:
 etl = MarketingDataETL()
-etl.extract("https://raw.githubusercontent.com/MrFarday/data/main/marketing_data.csv")
+etl.extract("https://raw.githubusercontent.com/aidara11/OOP-Python/main/marketing_data.csv")
 etl.transform()
 etl.store("transformed_marketing_data.csv")
 
