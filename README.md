@@ -21,8 +21,9 @@ melihat perubahan dari file kita
 git push
 push ke cloud untuk menyimpan kode kita di github
 Pull request
-Memberi tahu orang lain bahwa kita sudah selesai coding, sudah dipush dan siap di merge
-Mendownload ulang dari repository ke local kita
+Memberi tahu orang lain bahwa kita sudah selesai coding, sudah dipush dan siap di merge pull
+
+
 
 
 ## Class
