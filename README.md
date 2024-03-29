@@ -16,6 +16,15 @@ Pada github kali ini terdiri dari 2 class di python
 2. class TargetedMarketingETL
 
 ## Class MarketingDataETL
+Kelas ini berada pada file Basic_OOP.py yang terdiri dari 3 fitur, yaitu
+1. Fitur extract, fitur ini akan membaca data dari file data marketing
+2. Fitur transform, fitur ini akan melakukan pembersihan dan transformasi data, berupa menghapus baris yang memiliki nilai kosong dan mengubah format tanggal dari '03/01/23' menjadi '03-01-2023'
+3. Fitur store, fitur ini akan menyimpan data yang telah ditransformasi ke dalam struktur data DataFramet.
+
+## Class TargetedMarketingETL
+Kelas ini berada pada file Inheritance_Polymorphism.py. Disini digunakan inheritance untuk membuat class TargetedMarketingETL yang mewarisi dari MarketingDataETL. Kelas ini yang terdiri dari 2 fitur, yaitu
+1. Fitur transform, fitur ini bekerja dengan demonstrasi polymorphism dengan meng-override metode transform() dalam TargetedMarketingETL untuk menambahkan logika segmentasi pelanggan ke dalam proses transformasi. Memanggil metode transform() dari kelas induk.
+2. Fitur segment_customers, fitur ini mengelompokkan pelanggan berdasarkan total pengeluaran dalam kategori produk tertentu
 
 
 ## Langkah-Langkah Git yang saya lakukan
@@ -42,33 +51,3 @@ Pada github kali ini terdiri dari 2 class di python
 21. git pull: karena sebelumnya ada perubahan, maka gunakan git pull dahulu sebelum push ke repository
 22. git push: menggunakan git push origin add_targetmarketing sehingga di github ada brach baru bernama add_target marketing.
 
-
-git status 
-Untuk melihat status atau apa saja yang telah dilakukan
-
-git commit -m "<descriptive_message>"
-Untuk menyetujui bahwa file sudah siap diupload. Setelah dicommit dapat dilihat perbedaannya apa saja, file yang ditambahkan apa saja
-
-git log
-melihat perubahan dari file kita
-
-git push
-push ke cloud untuk menyimpan kode kita di github
-
-Pull request
-Memberi tahu orang lain bahwa kita sudah selesai coding, sudah dipush dan siap di merge pull
-
-git branch
-membuat branch baru
-
-git checkout <branch_name>
-
-git revert <commits> untuk mengundo, membuat commit baru dimana commit baru itu menjelaskan bahwa kita akan kembali ke commit sebelumnya. Tidak akan menghapus history commit sebelumnya tetapi dia akan melakukan state bahwa commit sekarang adalah versi yang lama.
-
-git reset
-akan menghapus segala perubahan yang ada di commit tersebut
-
-
-
-Pertama saya membuat repository baru dengan nama OOP-Python
-Lalu saya clone repository agar file dari repository agar bisa masuk ke laptop saya
