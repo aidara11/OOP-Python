@@ -17,7 +17,7 @@ Pada github kali ini terdiri dari 2 class di python
 
 ## Langkah-Langkah Git yang dilakukan
 1. git clone: saya melakukan git clone untuk menghubungkan repository dengan local (folder laptop pribadi)
-2. git add: Menambah file baru bernama "Basic_OOP_dan_Inheritance_Polymorphism.ipynb" ke dalam rangkaian git
+2. git add: Menambah file baru bernama "Basic_OOP_dan_Inheritance_Polymorphism.py" ke dalam rangkaian git
 3. git status: Melihat apakah file yang saya tambahkan sudah masuk ke rangkaian git
 4. git add: Karena saya membuat class yang berisi mengekstrak, mentransformasi, dan menyimpan data yang telah ditransformasi dengan nama file "transformed_marketing_data.csv" sehingga saya menambahkan file tersebut dengan git add ke dalam rangkaian git
 5. git commit: Menggunakan git commit -m "membangun kelas Marketing Data ETL" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
