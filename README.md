@@ -22,7 +22,8 @@ Pada github kali ini terdiri dari 2 class di python
 4. git add: Karena saya membuat class yang berisi mengekstrak, mentransformasi, dan menyimpan data yang telah ditransformasi dengan nama file "transformed_marketing_data.csv" sehingga saya menambahkan file tersebut dengan git add ke dalam rangkaian git
 5. git commit: Menggunakan git commit -m "membangun kelas Marketing Data ETL" untuk menyetujui bahwa perubahan script saya sudah fix tapi baru di local laptop saja
 6. git status: Ternyata sudah tidak ada lagi yang perlu dicommit (nothing to commit, working tree clean)
-7. git push: git push origin main
+7. git push: saya melakukan ini untuk push file saya ke cloud agar dapat menyimpan kode di github
+8. 
 
 git status 
 Untuk melihat status atau apa saja yang telah dilakukan
