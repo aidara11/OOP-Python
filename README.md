@@ -7,27 +7,39 @@ Data yang digunakan adalah data marketing di suatu toko yang terdiri dari 8 bari
 2. purchase_date: tanggal costumer membeli produk
 3. product_category: jenis produk yang dibeli oleh costumer
 4. amount_spent: jumlah produk yang dibeli costumer
+
 Setelah diperiksa, ternyata data tidak lengkap, terdapat data kosong pada kolom purchase_date.
 
-## Git
-git add
-Menambah file baru ke dalam rangkaian git
+## Class
+Pada github kali ini terdiri dari 2 class di python
+1. class MarketingDataETL
+2. class TargetedMarketingETL
+
+## Langkah-Langkah Git yang dilakukan
+1. git clone: saya melakukan git clone untuk menghubungkan repository dengan local (folder laptop pribadi)
+2. git add: Menambah file baru bernama "Basic_OOP_dan_Inheritance_Polymorphism.ipynb" ke dalam rangkaian git
+3. git status: Melihat apakah file yang saya tambahkan sudah masuk ke rangkaian git
+4. 
+
 git status 
 Untuk melihat status atau apa saja yang telah dilakukan
+
 git commit -m "<descriptive_message>"
 Untuk menyetujui bahwa file sudah siap diupload. Setelah dicommit dapat dilihat perbedaannya apa saja, file yang ditambahkan apa saja
+
 git log
 melihat perubahan dari file kita
+
 git push
 push ke cloud untuk menyimpan kode kita di github
+
 Pull request
 Memberi tahu orang lain bahwa kita sudah selesai coding, sudah dipush dan siap di merge pull
 
 
 
 
-## Class
-Pada github kali ini terdiri dari 2 class di python
+
 
 Pertama saya membuat repository baru dengan nama OOP-Python
 Lalu saya clone repository agar file dari repository agar bisa masuk ke laptop saya
